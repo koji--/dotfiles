@@ -1,0 +1,15 @@
+escape ^t^t
+startup_message off
+autodetach on
+vbell off
+defscrollback 30000
+hardstatus on
+hardstatus alwayslastline '%{= .b}%H%{-} %L=%-w%45L>%{=u b.}%n %t%{-}%+w %-17<%=%m/%d %02c:%s'
+caption always "%{= wk} %-w%?%F%{=b kr}%:%{= kW}%? %n %t %{-}%+w"
+altscreen on
+#256色対応
+defbce on 
+term xterm-256color
+#termcapinfo xterm* 'Co#256:pa#32767:AB=\E[48;5;%dm:AF=\E[38;5;%dm:'
+termcapinfo  xterm hs@:is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l
+termcapinfo  xterm-256color hs@:is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l
