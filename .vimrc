@@ -1,4 +1,5 @@
-set ts=4
+set nu
+set ts=2
 set sw=4
 set smartindent
 set expandtab
@@ -11,3 +12,4 @@ autocmd BufNewFile,BufRead *.psgi :setfiletype perl
 if exists('&ambiwidth')
     set ambiwidth=double
 endif
+map <ESC><ESC> :set hls!<CR>
