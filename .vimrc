@@ -3,6 +3,7 @@ set ts=2
 set sw=4
 set smartindent
 set expandtab
+set hls
 sy on
 map ,pt <ESC>:%!perltidy -q<CR>
 map ,wc <ESC>:!perl -wc %<CR>
