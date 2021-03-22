@@ -4,6 +4,8 @@ set sw=4
 set smartindent
 set expandtab
 set hls
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 sy on
 map ,pt <ESC>:%!perltidy -q<CR>
 map ,wc <ESC>:!perl -wc %<CR>
